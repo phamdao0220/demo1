@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    * {
+
+        font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+    }
+    select {
+        width: 10%;
+    }
+
+    .a {
+        color: red;
+    }
+
+    .b,.c {
+        display: flex;
+    }
+
+</style>
+<body>
+<h1>Order From</h1>
+<p>What would you like to buy?</p>
+<select>
+    <option>A</option>
+    <option>B</option>
+    <option>C</option>
+</select>
+<p>How many would you like to order?</p>
+<input type="radio">1-$10
+<br>
+<input type="radio">2-$20
+<br>
+<input type="radio">3-$25
+<div class="b">
+    <h2>Name</h2>
+    <h2 class="a">*</h2>
+</div>
+<input type="text" value="FirstName">
+<input type="text" value="LastName">
+<h2>Email</h2>
+<input type="text">
+<h2>Phone Number </h2>
+<div class="c">
+<input type="text" size="5"> -
+<input type="text" size="5"> -
+<input type="text" size="5">
+</div>
+<br>
+<button>Submit</button>
+
+</body>
+</html>

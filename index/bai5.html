@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Market Research Survey</h1>
+<p>Please take a few moments to complete this satisfaction survey.</p>
+<h3>What is your age range?</h3>
+<select class="abc">
+    <option>18-24</option>
+    <br>
+    <option>25-34</option>
+    <br>
+    <option>35-50</option>
+    <br>
+    <option>50+</option>
+</select>
+<br>
+<h3>What is your yearly income range?</h3>
+<select>
+    <option>$0 - $25,000</option>
+    <option>$25,001 - $50,000</option>
+    <option>$50,001 - $100,000</option>
+    <option>$100,000+</option>
+</select>
+<br>
+<h3>Gender Identity</h3>
+<input type="radio" name="index"> Male
+<br>
+<input type="radio" name="index"> Female
+<br>
+<input type="radio" name="index"> Nonbinary
+<br>
+<input type="radio" name="index"> Female
+<br>
+<input type="text" size="40px">
+<br>
+<h3>Which of the following products have your purchased in the last 2 months. Please check all that apply.</h3>
+<input type="checkbox"> Product 1
+<br>
+<input type="checkbox"> Product 2
+<br>
+<input type="checkbox"> Product 3
+<br>
+<h3>How often would you use our new product?</h3>
+<input type="radio" name="name"> Daily
+<br>
+<input type="radio" name="name"> Weekly
+<br>
+<input type="radio" name="name"> Monthly
+<br>
+<h3>What would you pay for the new product?</h3>
+$<input type="text" size="10"> . <input type="text" size="5">
+<br>
+<ul>
+    <li>Dollars</li>
+    <li class="a">Cents</li>
+</ul>
+<h3>What features would you like to see in the new product.</h3>
+<input class="cho" type="text">
+<p>Please rate your level of agreement with the following statements.</p>
+<table class="bcd" border="1">
+    <tr class="c">
+        <th></th>
+        <th>Strongly Disagree</th>
+        <th>Disagree</th>
+        <th>Agree</th>
+        <th>Strongly Agree</th>
+    </tr>
+    <tr >
+        <td>Our products are priced fairly </td>
+        <td><input type="radio" name="dao"><br>1</td>
+        <td><input type="radio" name="dao"><br>2</td>
+        <td><input type="radio" name="dao"><br>3</td>
+        <td><input type="radio" name="dao"><br>4</td>
+
+    </tr>
+    <tr class="z">
+        <td>Our products are high quality</td>
+        <td><input type="radio" name="dao"><br>1</td>
+        <td><input type="radio" name="dao"><br>2</td>
+        <td><input type="radio" name="dao"><br>3</td>
+        <td><input type="radio" name="dao"><br>4</td>
+
+    </tr>
+    <tr>
+        <td>How would recommend our product to  friend or coworker</td>
+        <td><input type="radio" name="dao"><br>1</td>
+        <td><input type="radio" name="dao"><br>2</td>
+        <td><input type="radio" name="dao"><br>3</td>
+        <td><input type="radio" name="dao"><br>4</td>
+
+    </tr>
+
+</table>
+<button>Submit</button>
+</body>
+</html>
+<style>
+    * {
+        margin: 0;
+        padding: 5px;
+    }
+
+    ul, li {
+        list-style: none;
+        display: flex;
+    }
+
+    .a {
+
+        margin: 0 25px;
+    }
+   .abc, select option{
+        width: 150px;
+    }
+    .bcd{
+
+        width: 100%;
+    }
+    .bcd th{
+        padding: 5px;
+    }
+    td,input{
+        text-align: center;
+    }
+    .c,.z{
+        background-color: darkgrey;
+    }
+    input{
+        font-size: 10px;
+        border-radius: 1px;
+
+    }
+    .cho{
+        padding: 50px 500px;
+    }
+
+</style>
