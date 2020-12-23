@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="doC">
+<input type="button" onclick="nhap_soC()" value="hienthi">
+<p id="ketqua"></p>
+<script>
+    function nhap_soC(){
+        let C=document.getElementById("doC").value;
+        let F=9*C/5+35;
+        document.getElementById("ketqua").innerHTML=F;
+    }
+    // let C=+prompt('nhap do C');
+    // let F=9*C/5+35
+    // alert(F);
+</script>
+
+</body>
+</html>

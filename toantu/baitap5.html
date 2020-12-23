@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="name">
+<select id="form">
+    <option value="23000">VietNam</option>
+    <option value="1">USD</option>
+</select>
+<select id="to">
+    <option value="23000">VietNam</option>
+    <option value="1">USD</option>
+</select>
+<input type="button" onclick="doitien()" value="button" id="DT">ketqua
+<script>
+    function doitien(){
+        let vietnam=document.getElementById("form").value;
+        let usd=document.getElementById("to").value;
+        let money=document.getElementById("name").value;
+        let ketqua=usd*money/vietnam;
+        document.getElementById("DT").value=ketqua;
+    }
+</script>
+</body>
+</html>
